@@ -21,7 +21,7 @@ class App extends Component {
     .then(users => this.setState({monsters : users}));
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({searchField : e.target.value})
   }
 
@@ -32,6 +32,7 @@ class App extends Component {
  
     return (
       <div className="App">
+        <h1>Avatar Rolexing</h1>
         <SearchBox
           placeholder="Search Avatar"
           handleChange={this.handleChange}

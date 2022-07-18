@@ -6,4 +6,11 @@
     width: 150px;
     line-height: 30px;
     margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.search::placeholder {
+    color: black;
+    text-align: center;
 }
